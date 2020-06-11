@@ -1,12 +1,12 @@
 {
-    "name": "my-app",
+    "name": "tellmann-co-za",
     "version": "0.1.0",
     "scripts": {
         "dev": "next dev",
         "build": "next build",
         "start": "next start"
     },
-    "description": "FelixTellmann.com Personal portfolio website & playground for fun projects.",
+    "description": "Tellmann.co.za Professional web development.",
     "quokka": {
         "babel": true,
         "plugins": [
