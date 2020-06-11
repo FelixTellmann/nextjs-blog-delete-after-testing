@@ -5,9 +5,7 @@ import './_sections.scss';
 import { Border } from "components/global/Border";
 import Link from "next/link";
 import Logo from "public/logo.svg";
-import { FaFacebookF, FaGithub, FaRegLightbulb } from "react-icons/fa";
 import { IoMdMenu, IoLogoWhatsapp } from "react-icons/Io";
-import { Button } from "components/global";
 import { useGlobalEvent, useMouseEvents } from "beautiful-react-hooks";
 import { ThemeCSSProperties } from "pages/_app";
 

@@ -16,7 +16,7 @@
             "components": "./components",
             "pages": "./pages",
             "library": "./library",
-            "static": "./public"
+            "public": "./public"
         }
     },
     "dependencies": {

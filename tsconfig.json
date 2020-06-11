@@ -28,9 +28,6 @@
       "library/*": [
         "library/*"
       ],
-      "/*": [
-        "public/*"
-      ],
       "public/*": [
         "public/*"
       ]
