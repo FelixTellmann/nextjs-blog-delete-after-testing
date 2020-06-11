@@ -5,7 +5,7 @@ import { Typed } from 'components/global';
 export const Hero: FC = () => {
 
     const content = [
-        `We build websites.`,
+        `We build eCommerce <br /> Websites.`,
         /*`I help people <br>succeed online.`,
         `I teach &amp; write <br>about code.`,*/
     ];
