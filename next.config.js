@@ -10,14 +10,14 @@ module.exports = withSass(withCSS({
                   loader: 'url-loader',
               },
           },
-          {
+          /*{
               enforce: 'pre',
               test: /.scss$/,
               loader: 'sass-resources-loader',
               options: {
                   resources: ['./components/theme/_mixins.scss'],
               },
-          });
+          }*/);
         config.resolve.extensions = [".ts", ".js", ".jsx", ".tsx", ".svg"];
         config.resolve.alias['components'] = path.join(__dirname, 'components');
         config.resolve.alias['pages'] = path.join(__dirname, 'pages');
