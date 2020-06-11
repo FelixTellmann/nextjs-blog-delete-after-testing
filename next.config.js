@@ -21,6 +21,7 @@ module.exports = withSass(withCSS({
         config.resolve.extensions = [".ts", ".js", ".jsx", ".tsx", ".svg"];
         config.resolve.alias['components'] = path.join(__dirname, 'components');
         config.resolve.alias['pages'] = path.join(__dirname, 'pages');
+        config.resolve.alias['/'] = path.join(__dirname, 'public');
         config.resolve.alias['public'] = path.join(__dirname, 'public');
         config.resolve.alias['library'] = path.join(__dirname, 'library');
 

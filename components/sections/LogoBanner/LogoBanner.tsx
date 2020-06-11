@@ -21,8 +21,6 @@ export const LogoBanner: FC = () => {
                   <div className="logo-banner__item">
                       <img src="/Amazon_Web_Services-Logo.wine.svg" alt="nextjs-logo" />
                   </div>
-
-
               </div>
           </div>
       </section>

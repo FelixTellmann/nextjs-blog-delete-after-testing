@@ -1,7 +1,5 @@
 import React, { FC, useEffect, useRef } from "react";
 import './Hero.scss';
-
-import { Mouse } from 'components/icons';
 import { Typed } from 'components/global';
 
 export const Hero: FC = () => {
@@ -12,7 +10,7 @@ export const Hero: FC = () => {
         `I teach &amp; write <br>about code.`,*/
     ];
 
-    return (/**/
+    return (
       <section className="hero section section--hero">
           <div className="section__wrapper">
               <div className="hero__content">
